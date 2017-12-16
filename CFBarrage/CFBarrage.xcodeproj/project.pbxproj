@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A226428D1FE4C1F500E7265C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A226428C1FE4C1F500E7265C /* main.m */; };
+		A22642901FE4C1F500E7265C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A226428F1FE4C1F500E7265C /* AppDelegate.m */; };
+		A22642931FE4C1F500E7265C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22642921FE4C1F500E7265C /* ViewController.m */; };
+		A22642961FE4C1F500E7265C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22642941FE4C1F500E7265C /* Main.storyboard */; };
+		A22642981FE4C1F500E7265C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22642971FE4C1F500E7265C /* Assets.xcassets */; };
+		A226429B1FE4C1F500E7265C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22642991FE4C1F500E7265C /* LaunchScreen.storyboard */; };
+		A22642A61FE4C1F600E7265C /* CFBarrageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22642A51FE4C1F600E7265C /* CFBarrageTests.m */; };
+		A22642B11FE4C1F600E7265C /* CFBarrageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22642B01FE4C1F600E7265C /* CFBarrageUITests.m */; };
+		A22642C11FE4C47100E7265C /* CFBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A22642C01FE4C47100E7265C /* CFBarrageView.m */; };
+		A22642C41FE4D07A00E7265C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A22642C31FE4D07A00E7265C /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A22642A21FE4C1F600E7265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22642801FE4C1F500E7265C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A22642871FE4C1F500E7265C;
+			remoteInfo = CFBarrage;
+		};
+		A22642AD1FE4C1F600E7265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22642801FE4C1F500E7265C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A22642871FE4C1F500E7265C;
+			remoteInfo = CFBarrage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A22642881FE4C1F500E7265C /* CFBarrage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFBarrage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A226428C1FE4C1F500E7265C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A226428E1FE4C1F500E7265C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A226428F1FE4C1F500E7265C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A22642911FE4C1F500E7265C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A22642921FE4C1F500E7265C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A22642951FE4C1F500E7265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A22642971FE4C1F500E7265C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A226429A1FE4C1F500E7265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A226429C1FE4C1F500E7265C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22642A11FE4C1F600E7265C /* CFBarrageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFBarrageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22642A51FE4C1F600E7265C /* CFBarrageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFBarrageTests.m; sourceTree = "<group>"; };
+		A22642A71FE4C1F600E7265C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22642AC1FE4C1F600E7265C /* CFBarrageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFBarrageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22642B01FE4C1F600E7265C /* CFBarrageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFBarrageUITests.m; sourceTree = "<group>"; };
+		A22642B21FE4C1F600E7265C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22642BF1FE4C47100E7265C /* CFBarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBarrageView.h; sourceTree = "<group>"; };
+		A22642C01FE4C47100E7265C /* CFBarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFBarrageView.m; sourceTree = "<group>"; };
+		A22642C21FE4D07A00E7265C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A22642C31FE4D07A00E7265C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22642851FE4C1F500E7265C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226429E1FE4C1F600E7265C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22642A91FE4C1F600E7265C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A226427F1FE4C1F500E7265C = {
+			isa = PBXGroup;
+			children = (
+				A226428A1FE4C1F500E7265C /* CFBarrage */,
+				A22642A41FE4C1F600E7265C /* CFBarrageTests */,
+				A22642AF1FE4C1F600E7265C /* CFBarrageUITests */,
+				A22642891FE4C1F500E7265C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A22642891FE4C1F500E7265C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22642881FE4C1F500E7265C /* CFBarrage.app */,
+				A22642A11FE4C1F600E7265C /* CFBarrageTests.xctest */,
+				A22642AC1FE4C1F600E7265C /* CFBarrageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A226428A1FE4C1F500E7265C /* CFBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				A22642BE1FE4C44D00E7265C /* BarrageView */,
+				A226428E1FE4C1F500E7265C /* AppDelegate.h */,
+				A226428F1FE4C1F500E7265C /* AppDelegate.m */,
+				A22642911FE4C1F500E7265C /* ViewController.h */,
+				A22642921FE4C1F500E7265C /* ViewController.m */,
+				A22642941FE4C1F500E7265C /* Main.storyboard */,
+				A22642971FE4C1F500E7265C /* Assets.xcassets */,
+				A22642991FE4C1F500E7265C /* LaunchScreen.storyboard */,
+				A226429C1FE4C1F500E7265C /* Info.plist */,
+				A226428B1FE4C1F500E7265C /* Supporting Files */,
+			);
+			path = CFBarrage;
+			sourceTree = "<group>";
+		};
+		A226428B1FE4C1F500E7265C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A226428C1FE4C1F500E7265C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A22642A41FE4C1F600E7265C /* CFBarrageTests */ = {
+			isa = PBXGroup;
+			children = (
+				A22642A51FE4C1F600E7265C /* CFBarrageTests.m */,
+				A22642A71FE4C1F600E7265C /* Info.plist */,
+			);
+			path = CFBarrageTests;
+			sourceTree = "<group>";
+		};
+		A22642AF1FE4C1F600E7265C /* CFBarrageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A22642B01FE4C1F600E7265C /* CFBarrageUITests.m */,
+				A22642B21FE4C1F600E7265C /* Info.plist */,
+			);
+			path = CFBarrageUITests;
+			sourceTree = "<group>";
+		};
+		A22642BE1FE4C44D00E7265C /* BarrageView */ = {
+			isa = PBXGroup;
+			children = (
+				A22642BF1FE4C47100E7265C /* CFBarrageView.h */,
+				A22642C01FE4C47100E7265C /* CFBarrageView.m */,
+				A22642C21FE4D07A00E7265C /* UIView+Frame.h */,
+				A22642C31FE4D07A00E7265C /* UIView+Frame.m */,
+			);
+			path = BarrageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22642871FE4C1F500E7265C /* CFBarrage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22642B51FE4C1F600E7265C /* Build configuration list for PBXNativeTarget "CFBarrage" */;
+			buildPhases = (
+				A22642841FE4C1F500E7265C /* Sources */,
+				A22642851FE4C1F500E7265C /* Frameworks */,
+				A22642861FE4C1F500E7265C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFBarrage;
+			productName = CFBarrage;
+			productReference = A22642881FE4C1F500E7265C /* CFBarrage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A22642A01FE4C1F600E7265C /* CFBarrageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22642B81FE4C1F600E7265C /* Build configuration list for PBXNativeTarget "CFBarrageTests" */;
+			buildPhases = (
+				A226429D1FE4C1F600E7265C /* Sources */,
+				A226429E1FE4C1F600E7265C /* Frameworks */,
+				A226429F1FE4C1F600E7265C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A22642A31FE4C1F600E7265C /* PBXTargetDependency */,
+			);
+			name = CFBarrageTests;
+			productName = CFBarrageTests;
+			productReference = A22642A11FE4C1F600E7265C /* CFBarrageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A22642AB1FE4C1F600E7265C /* CFBarrageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22642BB1FE4C1F600E7265C /* Build configuration list for PBXNativeTarget "CFBarrageUITests" */;
+			buildPhases = (
+				A22642A81FE4C1F600E7265C /* Sources */,
+				A22642A91FE4C1F600E7265C /* Frameworks */,
+				A22642AA1FE4C1F600E7265C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A22642AE1FE4C1F600E7265C /* PBXTargetDependency */,
+			);
+			name = CFBarrageUITests;
+			productName = CFBarrageUITests;
+			productReference = A22642AC1FE4C1F600E7265C /* CFBarrageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22642801FE4C1F500E7265C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenfeng;
+				TargetAttributes = {
+					A22642871FE4C1F500E7265C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2C8G4647XY;
+						ProvisioningStyle = Automatic;
+					};
+					A22642A01FE4C1F600E7265C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2C8G4647XY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A22642871FE4C1F500E7265C;
+					};
+					A22642AB1FE4C1F600E7265C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2C8G4647XY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A22642871FE4C1F500E7265C;
+					};
+				};
+			};
+			buildConfigurationList = A22642831FE4C1F500E7265C /* Build configuration list for PBXProject "CFBarrage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A226427F1FE4C1F500E7265C;
+			productRefGroup = A22642891FE4C1F500E7265C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22642871FE4C1F500E7265C /* CFBarrage */,
+				A22642A01FE4C1F600E7265C /* CFBarrageTests */,
+				A22642AB1FE4C1F600E7265C /* CFBarrageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A22642861FE4C1F500E7265C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A226429B1FE4C1F500E7265C /* LaunchScreen.storyboard in Resources */,
+				A22642981FE4C1F500E7265C /* Assets.xcassets in Resources */,
+				A22642961FE4C1F500E7265C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226429F1FE4C1F600E7265C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22642AA1FE4C1F600E7265C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22642841FE4C1F500E7265C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22642931FE4C1F500E7265C /* ViewController.m in Sources */,
+				A22642901FE4C1F500E7265C /* AppDelegate.m in Sources */,
+				A22642C11FE4C47100E7265C /* CFBarrageView.m in Sources */,
+				A22642C41FE4D07A00E7265C /* UIView+Frame.m in Sources */,
+				A226428D1FE4C1F500E7265C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226429D1FE4C1F600E7265C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22642A61FE4C1F600E7265C /* CFBarrageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22642A81FE4C1F600E7265C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22642B11FE4C1F600E7265C /* CFBarrageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A22642A31FE4C1F600E7265C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A22642871FE4C1F500E7265C /* CFBarrage */;
+			targetProxy = A22642A21FE4C1F600E7265C /* PBXContainerItemProxy */;
+		};
+		A22642AE1FE4C1F600E7265C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A22642871FE4C1F500E7265C /* CFBarrage */;
+			targetProxy = A22642AD1FE4C1F600E7265C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A22642941FE4C1F500E7265C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22642951FE4C1F500E7265C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A22642991FE4C1F500E7265C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A226429A1FE4C1F500E7265C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A22642B31FE4C1F600E7265C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A22642B41FE4C1F600E7265C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A22642B61FE4C1F600E7265C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = CFBarrage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenfeng.CFBarrage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A22642B71FE4C1F600E7265C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = CFBarrage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenfeng.CFBarrage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A22642B91FE4C1F600E7265C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = CFBarrageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenfeng.CFBarrageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFBarrage.app/CFBarrage";
+			};
+			name = Debug;
+		};
+		A22642BA1FE4C1F600E7265C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = CFBarrageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenfeng.CFBarrageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFBarrage.app/CFBarrage";
+			};
+			name = Release;
+		};
+		A22642BC1FE4C1F600E7265C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = CFBarrageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenfeng.CFBarrageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CFBarrage;
+			};
+			name = Debug;
+		};
+		A22642BD1FE4C1F600E7265C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = CFBarrageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenfeng.CFBarrageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CFBarrage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22642831FE4C1F500E7265C /* Build configuration list for PBXProject "CFBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22642B31FE4C1F600E7265C /* Debug */,
+				A22642B41FE4C1F600E7265C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22642B51FE4C1F600E7265C /* Build configuration list for PBXNativeTarget "CFBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22642B61FE4C1F600E7265C /* Debug */,
+				A22642B71FE4C1F600E7265C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A22642B81FE4C1F600E7265C /* Build configuration list for PBXNativeTarget "CFBarrageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22642B91FE4C1F600E7265C /* Debug */,
+				A22642BA1FE4C1F600E7265C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A22642BB1FE4C1F600E7265C /* Build configuration list for PBXNativeTarget "CFBarrageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22642BC1FE4C1F600E7265C /* Debug */,
+				A22642BD1FE4C1F600E7265C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22642801FE4C1F500E7265C /* Project object */;
+}
