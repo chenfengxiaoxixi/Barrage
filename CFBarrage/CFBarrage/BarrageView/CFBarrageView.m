@@ -93,7 +93,7 @@
         }
         
         textLabel.frame = CGRectMake(x, y, size.width, size.height);
-        
+  
         if (textLabel.width > self.width) {
             textLabel.width = self.width;
         }

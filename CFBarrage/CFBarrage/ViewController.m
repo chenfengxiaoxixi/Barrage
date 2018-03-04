@@ -52,7 +52,18 @@
 - (void)barrageViewDidselectTextlabel:(UILabel *)label
 {
 
-    NSLog(@"text = %@",label.text);
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@""
+                                                                   message:label.text
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {
+                                     
+                                                          }];
+    
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+    
     
 }
 
